@@ -28,7 +28,7 @@ int main()
     for (i = 0; i < r; i++)
         scanf("%d", &avail[i]);
 
-    printf("Enter the need matrix\n");
+    printf("need matrix\n");
     for (i = 0; i < p; i++)
     {
         for (j = 0; j < r; j++)
@@ -62,7 +62,6 @@ int main()
                         avail[j] += aloc[i][j];
                     }
                     count++;
-                    finish = 0;
                 }
                 else
                 {

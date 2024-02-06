@@ -39,7 +39,7 @@ int main()
         compt[0] = bt[0];
         wt[0] = 0;
 
-        for (i = 0; i < n; i++)
+        for (i = 1; i < n; i++)
         {
             compt[i] = compt[i - 1] + bt[i];
         }
