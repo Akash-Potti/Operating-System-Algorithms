@@ -46,7 +46,7 @@ int main()
         }
         display(fr, frsize);
     }
-
+    printf("\n The number of page faults is %d", pf);
     return 0;
 }
 

@@ -82,6 +82,7 @@ int main()
 
         display(frsize, fr);
     }
+    printf("\n\nTotal Page Faults: %d", pf);
 
     return 0;
 }
